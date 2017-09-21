@@ -40,16 +40,9 @@ services:
       - ./topics:/go/src/github.com/devopsdays/gather-flag/topics
 
   db:
-    image: mysql:5.7
+    image: mongo:3.3
     container_name: gather-flag-db
+    ports:
+      - "27017:27017"
     volumes:
-      - db_data:/var/lib/mysql
-    restart: always
-    environment:
-       MYSQL_ROOT_PASSWORD: gather-flag
-       MYSQL_DATABASE: gather-flag
-       MYSQL_USER: gather-flag
-       MYSQL_PASSWORD: gather-flag
-
-volumes:
-    db_data:
+      - ./backup:/backup:rw

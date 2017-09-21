@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/mattstratton/blondie/accounts/dbclient"
-	"github.com/mattstratton/blondie/accounts/service"
+	"github.com/devopsdays/gather-flag/accounts/dbclient"
+	"github.com/devopsdays/gather-flag/accounts/service"
 )
 
 var appName = "accountservice"
