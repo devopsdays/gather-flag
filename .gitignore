@@ -21,3 +21,4 @@ yarn-error.log*
 /accounts/tmp
 /topics/tmp
 /rooms/tmp
+/tmp
