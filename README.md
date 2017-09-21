@@ -17,8 +17,6 @@ Requirements
 * Docker 1.12
 * Docker Compose 1.8
 
-```
-
 Starting services
 ==============================
 
