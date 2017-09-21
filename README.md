@@ -40,6 +40,8 @@ If you need change some source code you can deploy it typing:
 docker-compose build
 ```
 
+That being said, things *should* reload on the fly. 
+
 ## Documentation
 ### Topic Service
 This service is used to get information about a topic. It provides the topic title, the description, and other details.
