@@ -1,15 +1,15 @@
-[![Stories in Ready](https://badge.waffle.io/devopsdays/patrick.svg?label=ready&title=Ready)](http://waffle.io/devopsdays/patrick) [![Stories in Progress](https://badge.waffle.io/devopsdays/patrick.svg?label=in%progress&title=In%20Progress)](http://waffle.io/devopsdays/patrick) [![Needs Review](https://badge.waffle.io/devopsdays/patrick.svg?label=needs-review&title=Needs%20Review)](http://waffle.io/devopsdays/patrick)
-[![Build Status](https://travis-ci.org/devopsdays/patrick.svg?branch=master)](https://travis-ci.org/devopsdays/patrick)
-[![Coverage Status](https://coveralls.io/repos/github/devopsdays/patrick/badge.svg?branch=master)](https://coveralls.io/github/devopsdays/patrick?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/devopsdays/patrick)](https://goreportcard.com/report/github.com/devopsdays/patrick)
-[![license](https://img.shields.io/github/license/devopsdays/patrick.svg)]()
+[![Stories in Ready](https://badge.waffle.io/devopsdays/gather-flag.svg?label=ready&title=Ready)](http://waffle.io/devopsdays/gather-flag) [![Stories in Progress](https://badge.waffle.io/devopsdays/gather-flag.svg?label=in%progress&title=In%20Progress)](http://waffle.io/devopsdays/gather-flag) [![Needs Review](https://badge.waffle.io/devopsdays/gather-flag.svg?label=needs-review&title=Needs%20Review)](http://waffle.io/devopsdays/gather-flag)
+[![Build Status](https://travis-ci.org/devopsdays/gather-flag.svg?branch=master)](https://travis-ci.org/devopsdays/gather-flag)
+[![Coverage Status](https://coveralls.io/repos/github/devopsdays/gather-flag/badge.svg?branch=master)](https://coveralls.io/github/devopsdays/gather-flag?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/devopsdays/gather-flag)](https://goreportcard.com/report/github.com/devopsdays/gather-flag)
+[![license](https://img.shields.io/github/license/devopsdays/gather-flag.svg)]()
 
-You can see progress on tasks at http://waffle.io/devopsdays/patrick
+You can see progress on tasks at http://waffle.io/devopsdays/gather-flag
 
-[![Throughput Graph](https://graphs.waffle.io/devopsdays/patrick/throughput.svg)](https://waffle.io/devopsdays/patrick/metrics)
-# patrick
+[![Throughput Graph](https://graphs.waffle.io/devopsdays/gather-flag/throughput.svg)](https://waffle.io/devopsdays/gather-flag/metrics)
+# gather-flag
 
-`patrick` is a web application for organizing open spaces, built with :heart: by [mattstratton](https://github.com/mattstratton) in [Go](https://golang.org/).
+`gather-flag` is a web application for organizing open spaces, built with :heart: by [mattstratton](https://github.com/mattstratton) in [Go](https://golang.org/).
 
 Requirements
 ===========
