@@ -1,3 +1,5 @@
+// Package dbclient contain the required logic for communication with the
+// database. All data operations are included.
 package dbclient
 
 import (
@@ -56,6 +58,8 @@ func (mc *MongoClient) Seed() {
 	fmt.Printf("Seeded %v fake accounts...\n", total)
 }
 
+// QueryAccount connects to the database and pulls back a single account based upon
+// the accountID as provided
 func (mc *MongoClient) QueryAccount(accountID string) (model.Account, error) {
 	account := model.Account{}
 	// objectID := fmt.Sprintf("ObjectId(\"%v\")", account)

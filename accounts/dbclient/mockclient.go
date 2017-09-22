@@ -10,15 +10,18 @@ type MockMongoClient struct {
 	mock.Mock
 }
 
+// QueryAccount provides a mock for the QueryAccount function
 func (m *MockMongoClient) QueryAccount(accountID string) (model.Account, error) {
 	args := m.Mock.Called(accountID)
 	return args.Get(0).(model.Account), args.Error(1)
 }
 
+// OpenMongoDB provides a mock for the OpenMongoDB function
 func (m *MockMongoClient) OpenMongoDB() {
 
 }
 
+// Seed provides a mock for the Seed function
 func (m *MockMongoClient) Seed() {
 
 }

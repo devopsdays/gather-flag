@@ -1,3 +1,4 @@
+// Package model provides the data model of the Account object
 package model
 
 import (
@@ -6,6 +7,7 @@ import (
 	"gopkg.in/mgo.v2/bson"
 )
 
+// Account is a struct defining a user account
 type Account struct {
 	ID        bson.ObjectId `json:"accountid" bson:"_id"`
 	Username  string        `json:"username" bson:"username"`

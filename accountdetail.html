@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Account Detail</title>
+</head>
+<body>
+    <style type="text/css">
+        table
+        {
+            font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+            font-size: 12px;
+            margin: 45px;
+            text-align: left;
+            border-collapse: collapse;
+        }
+        th
+        {
+            padding: 8px 2px;
+            font-weight: normal;
+            font-size: 14px;
+            border-bottom: 2px solid #6678b1;
+            border-right: 30px solid #fff;
+            border-left: 30px solid #fff;
+            color: #039;
+        }
+        td
+        {
+            padding: 12px 2px 0px 2px;
+            border-right: 30px solid #fff;
+            border-left: 30px solid #fff;
+            color: #669;
+        }
+    </style>
+
+  Username = {{ .Username }}<br/>
+  Firstname   = {{ .FirstName }}<br/>
+  Lastname  = {{ .LastName }}<br/>
+  Email Address   = {{ .Email }}<br/>
+
+</body>
+</html>
