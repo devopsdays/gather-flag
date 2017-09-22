@@ -25,4 +25,10 @@ var routes = Routes{
 		"/accounts/{accountID}", // Route pattern
 		GetAccount,
 	},
+	Route{
+		"ListAccounts",
+		"GET",
+		"/accounts/",
+		ListAccounts,
+	},
 }

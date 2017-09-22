@@ -17,6 +17,7 @@ import (
 type IMongoClient interface {
 	OpenMongoDB()
 	QueryAccount(accountID string) (model.Account, error)
+	ListAccounts() ([]model.Account, error)
 	Seed()
 }
 
@@ -72,4 +73,13 @@ func (mc *MongoClient) QueryAccount(accountID string) (model.Account, error) {
 
 	return account, nil
 
+}
+
+// ListAccounts connectes to the database and returns all accounts
+func (mc *MongoClient) ListAccounts() ([]model.Account, error) {
+	res := []model.Account{}
+	if err := mc.mongoDB.DB("gather-flag").C("accounts").Find(nil).All(&res); err != nil {
+		return nil, err
+	}
+	return res, nil
 }

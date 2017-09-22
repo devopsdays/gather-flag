@@ -16,6 +16,13 @@ func (m *MockMongoClient) QueryAccount(accountID string) (model.Account, error) 
 	return args.Get(0).(model.Account), args.Error(1)
 }
 
+// ListAccounts provides a mock for the ListAccounts function
+func (m *MockMongoClient) ListAccounts() ([]model.Account, error) {
+	args := m.Mock.Called()
+	return args.Get(0).([]model.Account), args.Error(1)
+
+}
+
 // OpenMongoDB provides a mock for the OpenMongoDB function
 func (m *MockMongoClient) OpenMongoDB() {
 
